@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('./partials/head'); %>
+</head>
+<body>
+    <a class="navbar-brand" href="/">Formulario</a>
+    <h1>Lista de productos:</h1>
+    <% mostrar.forEach(function(product){ %>
+        <h4>Titulo: <%=product.title%> </h4>
+       
+        <p>Price: <%=product.price%></p>
+    <% }); %>
+    <script>
+        document.getElementById('formulario').onsubmit = () =>{
+            let title = document.getElementById('title').value;
+            let price = document.getElementById('mainCharacter').value;
+            alert('Nuevo producto agregado: \n Título: ' + title + '\n precio: ' + price);
+        }
+    </script>
+</body>
+</html>

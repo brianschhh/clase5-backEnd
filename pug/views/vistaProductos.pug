@@ -1,0 +1,24 @@
+
+// Agregar el head de HTML e importar la librería de CSS (Bootstrap o la que prefieran).
+
+a(href="/") Formulario
+
+h4 Vista de Productos:
+
+if productos.length < 1
+  h5 No se encontraron productos.
+
+else
+  table
+    thead
+        tr
+            th Nombre:
+            th Precio:
+          
+    tbody
+        each producto in productos
+            tr
+                td #{ producto.title }
+
+                td #{ producto.price }
+               

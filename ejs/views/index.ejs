@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('./partials/head'); %>
+</head>
+<body>
+    <%- include('./partials/form'); %>
+    <script>
+        document.getElementById('formulario').onsubmit = () =>{
+            let title = document.getElementById('title').value;
+            let price = document.getElementById('price').value;
+            alert('Nuevo producto agregado: \n Título: ' + title + '\n precio: ' + price);
+        }
+    </script>
+</body>
+</html>

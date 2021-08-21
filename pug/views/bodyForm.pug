@@ -1,0 +1,23 @@
+
+html
+    head 
+        meta(http-equiv="Content-Type", content="text/html;charset=UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Desafio Pug
+
+body
+    a(href="/") Formulario -
+    a(href="/productos")  Vista de productos
+    
+
+    form(action="/productos" method="POST")
+            p Titulo:
+            input(type="text" name="title" )
+            p precio
+            input(type="number" name="price" )
+            button(type="submit") Submit
+
+    
+
+    

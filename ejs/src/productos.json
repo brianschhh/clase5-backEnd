@@ -1,0 +1,37 @@
+[
+  {
+    "title": "pc3",
+    "price": "50000",
+    "id": 0
+  },
+  {
+    "title": "monitor",
+    "price": "20000",
+    "id": 1
+  },
+  {
+    "title": "teclado",
+    "price": "9000",
+    "id": 2
+  },
+  {
+    "title": "asda",
+    "price": "5000",
+    "id": 3
+  },
+  {
+    "title": "asdasda",
+    "price": "123123",
+    "id": 4
+  },
+  {
+    "title": "asdas",
+    "price": "123123",
+    "id": 5
+  },
+  {
+    "title": "hpla",
+    "price": "115659",
+    "id": 6
+  }
+]
